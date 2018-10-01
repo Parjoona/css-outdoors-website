@@ -5,9 +5,7 @@
     @include clearfix;
 
     [class^="col-"] {
-        background-color: orangered;
         float: left;
-
         @include notlastchildright;
     }
 
