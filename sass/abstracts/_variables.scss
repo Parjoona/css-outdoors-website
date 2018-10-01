@@ -1,13 +1,18 @@
+// primary colors
 $color-primary: #55c57a;
 $color-primary-light: #28b485;
 $color-primary-dark: #7ed56f;
 
-$color-grey-light-1: #f7f7f7;
-
+// grey-scale colors
 $color-black: #000;
 $color-grey-dark: #777;
+$color-grey-light-1: #f7f7f7;
 $color-white: #FFF;
 
+// grid
 $grid-width: 114rem;
 $gutter-vertical: 4rem;
 $gutter-horizontal: 2rem;
+
+// font-sizes
+$default-font-size: 1.6rem;
