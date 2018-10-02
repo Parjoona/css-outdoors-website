@@ -48,6 +48,15 @@
         }
     }
 
+    &--green {
+        background: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background: $color-primary;
+        }
+    }
+
     &--animated {
         animation: moveInFromBottom 550ms 250ms ease-out backwards;
     }
