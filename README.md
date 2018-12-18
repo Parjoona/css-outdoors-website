@@ -4,9 +4,9 @@
 #### Run commands in terminal  
 
 Install dependecies  
-1. npm i  
+1. npm i
 
-Run webserver  
+Run webserver
 2. npm run serve (live-server)
 
 If live-server is not installed, run  
