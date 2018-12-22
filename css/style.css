@@ -293,8 +293,8 @@ body {
 
 .navigation__list {
   position: absolute;
-  top: 50%;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center;
@@ -337,6 +337,24 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg); }
+
+.popup {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 20000; }
+  .popup__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background: #FFF;
+    height: 50rem;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -530,8 +548,8 @@ body {
           border-bottom: 1px solid #EEE; }
   .card__cta {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 90%; }
   .card__price-box {
@@ -573,9 +591,9 @@ body {
     transform: skewX(12deg); }
   .story__caption {
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, 20%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     color: #FFF;
     text-transform: uppercase;
     font-size: 1.7rem;
@@ -664,14 +682,14 @@ body {
   left: 0;
   top: -.4rem; }
   .form__radio-button::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     height: 1rem;
     width: 1rem;
     content: '';
     border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background: #55c57a;
     opacity: 0;
     transition: all .2s; }
