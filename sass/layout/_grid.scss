@@ -8,6 +8,15 @@
     [class^="col-"] {
         float: left;
         @include notlastchildright;
+
+        @include query-for(tablet) {
+            width: 100% !important;
+        }
+    }
+
+    @include query-for(tablet) {
+        max-width: 50rem;
+        padding: 0 3rem;
     }
 
     .col {

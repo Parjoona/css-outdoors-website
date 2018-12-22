@@ -15,6 +15,16 @@
         box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
         text-align: center;
         cursor: pointer;
+
+        @include query-for(tablet) {
+            top: 4rem;
+            right: 4rem;
+        }
+
+        @include query-for(phone) {
+            top: 3rem;
+            right: 3rem;
+        }
     }
 
     &__button:hover &__icon::before {
@@ -73,6 +83,16 @@
             0.87,
             1
         );
+
+        @include query-for(tablet) {
+            top: 4.5rem;
+            right: 4.5rem;
+        }
+
+        @include query-for(phone) {
+            top: 3.5rem;
+            right: 3.5rem;
+        }
     }
 
     &__nav {

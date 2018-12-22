@@ -9,6 +9,10 @@
 @mixin notlastchildright {
     &:not(:last-child) {
         margin-right: $gutter-horizontal;
+
+        @include query-for(tablet) {
+            margin-bottom: 2rem;
+        }
     }
 }
 

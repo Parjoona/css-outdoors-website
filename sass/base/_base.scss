@@ -26,4 +26,9 @@ html {
 body {
      /* inherits from * */
     box-sizing: border-box;
+    padding: 3rem;
+
+    @include query-for(tablet) {
+        padding: 0;
+    }
 }
